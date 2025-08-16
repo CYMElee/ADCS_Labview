@@ -19,6 +19,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="dynamics.vi" Type="VI" URL="../dynamics.vi"/>
 		<Item Name="geometry_controller.vi" Type="VI" URL="../geometry_controller.vi"/>
 		<Item Name="icl_update_law.vi" Type="VI" URL="../icl_update_law.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
