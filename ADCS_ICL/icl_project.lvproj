@@ -23,11 +23,15 @@
 		<Item Name="dynamics.vi" Type="VI" URL="../dynamics.vi"/>
 		<Item Name="geometry_controller.vi" Type="VI" URL="../geometry_controller.vi"/>
 		<Item Name="icl_update_law.vi" Type="VI" URL="../icl_update_law.vi"/>
+		<Item Name="M_icl_init.vi" Type="VI" URL="../M_icl_init.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="regression_matrix.vi" Type="VI" URL="../regression_matrix.vi"/>
+		<Item Name="sigma_m_init.vi" Type="VI" URL="../sigma_m_init.vi"/>
+		<Item Name="sigma_y_array_init.vi" Type="VI" URL="../sigma_y_array_init.vi"/>
 		<Item Name="test.vi" Type="VI" URL="../test.vi"/>
 		<Item Name="tracking_error.vi" Type="VI" URL="../tracking_error.vi"/>
 		<Item Name="trajectory_generator.vi" Type="VI" URL="../trajectory_generator.vi"/>
+		<Item Name="y_sys_icl_init.vi" Type="VI" URL="../y_sys_icl_init.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
