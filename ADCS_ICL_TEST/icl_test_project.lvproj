@@ -19,21 +19,21 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="demux.vi" Type="VI" URL="../demux.vi"/>
-		<Item Name="dynamics.vi" Type="VI" URL="../dynamics.vi"/>
-		<Item Name="Euler2Rot.vi" Type="VI" URL="../Euler2Rot.vi"/>
-		<Item Name="geometry_controller.vi" Type="VI" URL="../geometry_controller.vi"/>
-		<Item Name="icl_update_law.vi" Type="VI" URL="../icl_update_law.vi"/>
-		<Item Name="M_icl_init.vi" Type="VI" URL="../M_icl_init.vi"/>
-		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
-		<Item Name="regression_matrix.vi" Type="VI" URL="../regression_matrix.vi"/>
-		<Item Name="Rot2Eul.vi" Type="VI" URL="../Rot2Eul.vi"/>
-		<Item Name="sigma_m_init.vi" Type="VI" URL="../sigma_m_init.vi"/>
-		<Item Name="sigma_y_array_init.vi" Type="VI" URL="../sigma_y_array_init.vi"/>
-		<Item Name="test.vi" Type="VI" URL="../test.vi"/>
-		<Item Name="tracking_error.vi" Type="VI" URL="../tracking_error.vi"/>
-		<Item Name="trajectory_generator.vi" Type="VI" URL="../trajectory_generator.vi"/>
-		<Item Name="y_sys_icl_init.vi" Type="VI" URL="../y_sys_icl_init.vi"/>
+		<Item Name="demux.vi" Type="VI" URL="../../ADCS_ICL/demux.vi"/>
+		<Item Name="dynamics.vi" Type="VI" URL="../../ADCS_ICL/dynamics.vi"/>
+		<Item Name="Euler2Rot.vi" Type="VI" URL="../../ADCS_ICL/Euler2Rot.vi"/>
+		<Item Name="geometry_controller.vi" Type="VI" URL="../../ADCS_ICL/geometry_controller.vi"/>
+		<Item Name="icl_update_law.vi" Type="VI" URL="../../ADCS_ICL/icl_update_law.vi"/>
+		<Item Name="M_icl_init.vi" Type="VI" URL="../../ADCS_ICL/M_icl_init.vi"/>
+		<Item Name="main.vi" Type="VI" URL="../../ADCS_ICL/main.vi"/>
+		<Item Name="regression_matrix.vi" Type="VI" URL="../../ADCS_ICL/regression_matrix.vi"/>
+		<Item Name="Rot2Eul.vi" Type="VI" URL="../../ADCS_ICL/Rot2Eul.vi"/>
+		<Item Name="sigma_m_init.vi" Type="VI" URL="../../ADCS_ICL/sigma_m_init.vi"/>
+		<Item Name="sigma_y_array_init.vi" Type="VI" URL="../../ADCS_ICL/sigma_y_array_init.vi"/>
+		<Item Name="test.vi" Type="VI" URL="../../ADCS_ICL/test.vi"/>
+		<Item Name="tracking_error.vi" Type="VI" URL="../../ADCS_ICL/tracking_error.vi"/>
+		<Item Name="trajectory_generator.vi" Type="VI" URL="../../ADCS_ICL/trajectory_generator.vi"/>
+		<Item Name="y_sys_icl_init.vi" Type="VI" URL="../../ADCS_ICL/y_sys_icl_init.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
